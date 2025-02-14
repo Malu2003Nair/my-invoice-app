@@ -1,10 +1,10 @@
 import React from "react";
-import Invoice from "./Invoice";
+import PaymentWindow from "./components/PaymentWindow";
 
 function App() {
   return (
-    <div>
-      <Invoice />
+    <div className="App">
+      <PaymentWindow />
     </div>
   );
 }
